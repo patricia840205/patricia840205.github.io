@@ -1,0 +1,11 @@
+http://www.1keydata.com/tw/sql/sql.html
+
+http://www.1keydata.com/tw/sql/sqljoins.html
+
+http://www.runoob.com/php/func-mysqli-affected-rows.html
+
+http://www.5idev.com/p-php_mysql_select_from.shtml
+
+http://w3school.idv.hm/php/func_string_htmlspecialchars.asp.htm
+
+http://www.w3schools.com/

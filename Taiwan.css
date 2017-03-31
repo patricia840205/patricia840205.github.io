@@ -1,0 +1,180 @@
+body { background-color: #f2f2f2;
+      color: #003300;
+	  font-family: Palatino Linotype;  
+}
+
+#wrapper { width: 80%;
+           min-width: 500px;
+		   max-width: 970px;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #f2f2f2;
+		   padding: 0px 0px 25px 0px;
+		   background-color: #FFFFFF;
+		   text-align: center;
+}
+	   
+nav ul { padding: 5px;
+		 margin: 6px;}
+
+nav ul li { list-style: none;
+			 display: inline;
+			 font-size: 1.2em;
+			 font-weight: bold; 
+			 border: 0px solid #f2f2f2;
+			 background-color: #e6e6e6; 
+			 }
+
+nav a { text-decoration: none;
+		 padding: 3px 35px 3px 35px; 
+		 text-align: bottom;}
+		 
+nav a:link { color: #0d0d0d; }
+
+nav a:visited { color: #595959; }
+
+nav a:hover { background-color: #4d4d4d;
+               color: #FFFFFF; }
+			
+img { max-width: 100%;
+	  height: auto;
+	  }
+	  
+h1 { font-style: italic;
+	 font-family: Palatino Linotype;
+	 font-size: 2.0em;
+	 color: #333333;
+	 text-align: center;
+	}
+
+#footer { clear: both;
+		  text-align: center;
+		  font-size: 0.8em;
+		  opacity: 0.5; 
+		  font-style: italic; 
+}
+
+
+#text { background-color: #FFFFFF; 
+        padding: 1px 0px 0px 40px;
+        text-align: left;
+	    font-family: times new roman;
+	    line-height: 8px;}
+
+
+h2 { text-align: left;
+	 font-family: Palatino Linotype;
+	 font-size: 1.5em;
+}
+	 
+h3 { text-align: left;
+	 font-family: Palatino Linotype;
+	 font-size: 0.8em;
+	 padding: 0px 0px 0px 80px;
+}
+
+
+
+th{background-color:#5c5c89;
+   color:white;
+   height:2em;}
+tr:nth-of-type(even) {  background-color: #d1d1e0;  }
+tr:first-of-type { background-color: #666; color: #7676a3; }
+
+ ul { /* 取消ul預設的內縮及樣式 */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {
+        
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+		top: 0%;
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+    }
+	
+	ul.drop-down-menu li  ul li a{
+		color:red;
+		padding: none;
+		line-height: -200px;
+		float:height;
+    }
+
+   
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }
+
+     ul.drop-down-menu a {
+        background-color: #fff;
+        color: #333;
+        display: block;
+        padding: 0px 30px;
+        text-decoration: none;
+        line-height: 40px;
+		border: 2px solid #fcfcfc;
+	    background-color: #e6e6e6; 
+
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+	 ul.drop-down-menu ul {
+        
+        position: absolute;
+        z-index: 199;
+        left: -10px;
+        top: 75%;
+       min-width: 180px;
+	   min-height: 200px;
+    }
+
+   
+	
+	ul.drop-down-menu ul { /*隱藏次選單*/
+        display: none;
+    }
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+    }
+	
+/**/
+div#maintext {
+	background-color:white;
+	font-size: 16px;
+	padding: 10px;
+	text-align: left;
+}
+div#navigation {
+	padding: 10px;
+	text-align: right;
+}
+div#title {
+	height: 100px;
+	background-color: #efefe7;
+	padding: 10px;
+	border-bottom: 1px solid #000;
+}
+div#wrapper {
+	width: 600px;
+	
+}
+
+.odd {
+ 	background-color: lightGrey;
+}
+.even {
+ 	background-color: darkGray;
+}
